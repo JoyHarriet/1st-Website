@@ -21,6 +21,56 @@
 
 
 
+/* Skyways Global logo */
+.logo-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.logo-image {
+    height: 45px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo-image-container {
+        padding: 4px 8px;
+        margin-right: 8px;
+        border-radius: 7px;
+    }
+
+    .logo-image {
+        height: 38px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ============================================================
    SKYWAYS GLOBAL - JOBS PAGE
